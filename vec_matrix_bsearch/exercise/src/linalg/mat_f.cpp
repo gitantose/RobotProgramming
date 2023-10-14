@@ -123,7 +123,7 @@ VecF  MatF::operator* (const VecF& other) const {
   for (int i=0; i<rows; ++i) {
   	returned.v[i] = 0;
   	for (int j=0; j<cols; j++)
-  		returned.v[i] += v[i*cols+j] + other.v[j];
+  		returned.v[i] += at(i,j) * other.v[j];
   }
   return returned;
 }
@@ -133,8 +133,12 @@ MatF  MatF::operator* (const MatF& other) const {
   assert(cols==other.rows && "dimension mismatch");
   MatF returned(rows, other.cols);
   //TODO: fillme
-  
-  return returned;
+  returned.fill(0.);
+  for (int j=0; j<other.cols; ++j)
+ 		for (int i=0; i<rows; ++i)
+ 			for (int k=0; k<cols; ++k)
+ 				returned.at(i,j) += at(i, k) * other.at(k,j);
+	return returned;
 }
 
 MatF MatF::transpose() const {
