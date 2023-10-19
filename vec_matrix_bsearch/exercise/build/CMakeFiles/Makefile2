@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise
+CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build
+CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -137,14 +137,14 @@ src/linalg/clean: src/linalg/CMakeFiles/mat_f_test.dir/clean
 src/linalg/CMakeFiles/vec_f_library.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=9,10 "Built target vec_f_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=9,10 "Built target vec_f_library"
 .PHONY : src/linalg/CMakeFiles/vec_f_library.dir/all
 
 # Build rule for subdir invocation for target.
 src/linalg/CMakeFiles/vec_f_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/vec_f_library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : src/linalg/CMakeFiles/vec_f_library.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ src/linalg/CMakeFiles/vec_f_library.dir/clean:
 src/linalg/CMakeFiles/mat_f_library.dir/all: src/linalg/CMakeFiles/vec_f_library.dir/all
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=5,6 "Built target mat_f_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=5,6 "Built target mat_f_library"
 .PHONY : src/linalg/CMakeFiles/mat_f_library.dir/all
 
 # Build rule for subdir invocation for target.
 src/linalg/CMakeFiles/mat_f_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/mat_f_library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : src/linalg/CMakeFiles/mat_f_library.dir/rule
 
 # Convenience name for target.
@@ -189,14 +189,14 @@ src/linalg/CMakeFiles/mat_f_library.dir/clean:
 src/linalg/CMakeFiles/vec_f_test.dir/all: src/linalg/CMakeFiles/vec_f_library.dir/all
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=11,12 "Built target vec_f_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=11,12 "Built target vec_f_test"
 .PHONY : src/linalg/CMakeFiles/vec_f_test.dir/all
 
 # Build rule for subdir invocation for target.
 src/linalg/CMakeFiles/vec_f_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/vec_f_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : src/linalg/CMakeFiles/vec_f_test.dir/rule
 
 # Convenience name for target.
@@ -216,14 +216,14 @@ src/linalg/CMakeFiles/mat_f_test.dir/all: src/linalg/CMakeFiles/vec_f_library.di
 src/linalg/CMakeFiles/mat_f_test.dir/all: src/linalg/CMakeFiles/mat_f_library.dir/all
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=7,8 "Built target mat_f_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=7,8 "Built target mat_f_test"
 .PHONY : src/linalg/CMakeFiles/mat_f_test.dir/all
 
 # Build rule for subdir invocation for target.
 src/linalg/CMakeFiles/mat_f_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/mat_f_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : src/linalg/CMakeFiles/mat_f_test.dir/rule
 
 # Convenience name for target.
@@ -242,14 +242,14 @@ src/linalg/CMakeFiles/mat_f_test.dir/clean:
 src/btree/CMakeFiles/btree_library.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/btree/CMakeFiles/btree_library.dir/build.make src/btree/CMakeFiles/btree_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/btree/CMakeFiles/btree_library.dir/build.make src/btree/CMakeFiles/btree_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=1,2 "Built target btree_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=1,2 "Built target btree_library"
 .PHONY : src/btree/CMakeFiles/btree_library.dir/all
 
 # Build rule for subdir invocation for target.
 src/btree/CMakeFiles/btree_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/btree/CMakeFiles/btree_library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : src/btree/CMakeFiles/btree_library.dir/rule
 
 # Convenience name for target.
@@ -268,14 +268,14 @@ src/btree/CMakeFiles/btree_library.dir/clean:
 src/btree/CMakeFiles/btree_test.dir/all: src/btree/CMakeFiles/btree_library.dir/all
 	$(MAKE) $(MAKESILENT) -f src/btree/CMakeFiles/btree_test.dir/build.make src/btree/CMakeFiles/btree_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/btree/CMakeFiles/btree_test.dir/build.make src/btree/CMakeFiles/btree_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=3,4 "Built target btree_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=3,4 "Built target btree_test"
 .PHONY : src/btree/CMakeFiles/btree_test.dir/all
 
 # Build rule for subdir invocation for target.
 src/btree/CMakeFiles/btree_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/btree/CMakeFiles/btree_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : src/btree/CMakeFiles/btree_test.dir/rule
 
 # Convenience name for target.

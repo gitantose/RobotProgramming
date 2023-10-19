@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise
+CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build
+CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build
 
 # Include any dependencies generated for this target.
 include src/linalg/CMakeFiles/vec_f_library.dir/depend.make
@@ -72,16 +72,16 @@ include src/linalg/CMakeFiles/vec_f_library.dir/flags.make
 src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o: src/linalg/CMakeFiles/vec_f_library.dir/flags.make
 src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o: ../src/linalg/vec_f.cpp
 src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o: src/linalg/CMakeFiles/vec_f_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o -MF CMakeFiles/vec_f_library.dir/vec_f.cpp.o.d -o CMakeFiles/vec_f_library.dir/vec_f.cpp.o -c /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/linalg/vec_f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o"
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o -MF CMakeFiles/vec_f_library.dir/vec_f.cpp.o.d -o CMakeFiles/vec_f_library.dir/vec_f.cpp.o -c /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/linalg/vec_f.cpp
 
 src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vec_f_library.dir/vec_f.cpp.i"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/linalg/vec_f.cpp > CMakeFiles/vec_f_library.dir/vec_f.cpp.i
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/linalg/vec_f.cpp > CMakeFiles/vec_f_library.dir/vec_f.cpp.i
 
 src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vec_f_library.dir/vec_f.cpp.s"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/linalg/vec_f.cpp -o CMakeFiles/vec_f_library.dir/vec_f.cpp.s
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/linalg/vec_f.cpp -o CMakeFiles/vec_f_library.dir/vec_f.cpp.s
 
 # Object files for target vec_f_library
 vec_f_library_OBJECTS = \
@@ -93,19 +93,19 @@ vec_f_library_EXTERNAL_OBJECTS =
 src/linalg/libvec_f_library.a: src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o
 src/linalg/libvec_f_library.a: src/linalg/CMakeFiles/vec_f_library.dir/build.make
 src/linalg/libvec_f_library.a: src/linalg/CMakeFiles/vec_f_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libvec_f_library.a"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg && $(CMAKE_COMMAND) -P CMakeFiles/vec_f_library.dir/cmake_clean_target.cmake
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vec_f_library.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libvec_f_library.a"
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg && $(CMAKE_COMMAND) -P CMakeFiles/vec_f_library.dir/cmake_clean_target.cmake
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vec_f_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/linalg/CMakeFiles/vec_f_library.dir/build: src/linalg/libvec_f_library.a
 .PHONY : src/linalg/CMakeFiles/vec_f_library.dir/build
 
 src/linalg/CMakeFiles/vec_f_library.dir/clean:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg && $(CMAKE_COMMAND) -P CMakeFiles/vec_f_library.dir/cmake_clean.cmake
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg && $(CMAKE_COMMAND) -P CMakeFiles/vec_f_library.dir/cmake_clean.cmake
 .PHONY : src/linalg/CMakeFiles/vec_f_library.dir/clean
 
 src/linalg/CMakeFiles/vec_f_library.dir/depend:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/linalg /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg/CMakeFiles/vec_f_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/linalg /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg/CMakeFiles/vec_f_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/linalg/CMakeFiles/vec_f_library.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise
+CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build
+CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build
 
 # Include any dependencies generated for this target.
 include src/btree/CMakeFiles/btree_test.dir/depend.make
@@ -72,16 +72,16 @@ include src/btree/CMakeFiles/btree_test.dir/flags.make
 src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o: src/btree/CMakeFiles/btree_test.dir/flags.make
 src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o: ../src/btree/btree_test.cpp
 src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o: src/btree/CMakeFiles/btree_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o -MF CMakeFiles/btree_test.dir/btree_test.cpp.o.d -o CMakeFiles/btree_test.dir/btree_test.cpp.o -c /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/btree/btree_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o"
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o -MF CMakeFiles/btree_test.dir/btree_test.cpp.o.d -o CMakeFiles/btree_test.dir/btree_test.cpp.o -c /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/btree/btree_test.cpp
 
 src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/btree_test.dir/btree_test.cpp.i"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/btree/btree_test.cpp > CMakeFiles/btree_test.dir/btree_test.cpp.i
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/btree/btree_test.cpp > CMakeFiles/btree_test.dir/btree_test.cpp.i
 
 src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/btree_test.dir/btree_test.cpp.s"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/btree/btree_test.cpp -o CMakeFiles/btree_test.dir/btree_test.cpp.s
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/btree/btree_test.cpp -o CMakeFiles/btree_test.dir/btree_test.cpp.s
 
 # Object files for target btree_test
 btree_test_OBJECTS = \
@@ -94,18 +94,18 @@ src/btree/btree_test: src/btree/CMakeFiles/btree_test.dir/btree_test.cpp.o
 src/btree/btree_test: src/btree/CMakeFiles/btree_test.dir/build.make
 src/btree/btree_test: src/btree/libbtree_library.a
 src/btree/btree_test: src/btree/CMakeFiles/btree_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable btree_test"
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/btree_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable btree_test"
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/btree_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/btree/CMakeFiles/btree_test.dir/build: src/btree/btree_test
 .PHONY : src/btree/CMakeFiles/btree_test.dir/build
 
 src/btree/CMakeFiles/btree_test.dir/clean:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree && $(CMAKE_COMMAND) -P CMakeFiles/btree_test.dir/cmake_clean.cmake
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree && $(CMAKE_COMMAND) -P CMakeFiles/btree_test.dir/cmake_clean.cmake
 .PHONY : src/btree/CMakeFiles/btree_test.dir/clean
 
 src/btree/CMakeFiles/btree_test.dir/depend:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/btree /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree/CMakeFiles/btree_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/btree /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree/CMakeFiles/btree_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/btree/CMakeFiles/btree_test.dir/depend
 

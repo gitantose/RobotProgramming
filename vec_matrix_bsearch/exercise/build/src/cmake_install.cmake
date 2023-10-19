@@ -1,4 +1,4 @@
-# Install script for directory: /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src
+# Install script for directory: /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg/cmake_install.cmake")
-  include("/home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/btree/cmake_install.cmake")
+  include("/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg/cmake_install.cmake")
+  include("/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/btree/cmake_install.cmake")
 
 endif()
 

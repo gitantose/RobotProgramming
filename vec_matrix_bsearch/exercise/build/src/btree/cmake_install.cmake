@@ -1,4 +1,4 @@
-# Install script for directory: /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/src/btree
+# Install script for directory: /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/src/btree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

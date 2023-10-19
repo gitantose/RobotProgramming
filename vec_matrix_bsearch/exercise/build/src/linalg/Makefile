@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise
+CMAKE_SOURCE_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build
+CMAKE_BINARY_DIR = /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/src/linalg//CMakeFiles/progress.marks
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build/CMakeFiles 0
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/src/linalg//CMakeFiles/progress.marks
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/clean
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/preinstall
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/preinstall
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/linalg/CMakeFiles/vec_f_library.dir/rule:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/vec_f_library.dir/rule
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/vec_f_library.dir/rule
 .PHONY : src/linalg/CMakeFiles/vec_f_library.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ vec_f_library: src/linalg/CMakeFiles/vec_f_library.dir/rule
 
 # fast build rule for target.
 vec_f_library/fast:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/build
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/build
 .PHONY : vec_f_library/fast
 
 # Convenience name for target.
 src/linalg/CMakeFiles/mat_f_library.dir/rule:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/mat_f_library.dir/rule
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/mat_f_library.dir/rule
 .PHONY : src/linalg/CMakeFiles/mat_f_library.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ mat_f_library: src/linalg/CMakeFiles/mat_f_library.dir/rule
 
 # fast build rule for target.
 mat_f_library/fast:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/build
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/build
 .PHONY : mat_f_library/fast
 
 # Convenience name for target.
 src/linalg/CMakeFiles/vec_f_test.dir/rule:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/vec_f_test.dir/rule
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/vec_f_test.dir/rule
 .PHONY : src/linalg/CMakeFiles/vec_f_test.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ vec_f_test: src/linalg/CMakeFiles/vec_f_test.dir/rule
 
 # fast build rule for target.
 vec_f_test/fast:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/build
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/build
 .PHONY : vec_f_test/fast
 
 # Convenience name for target.
 src/linalg/CMakeFiles/mat_f_test.dir/rule:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/mat_f_test.dir/rule
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/linalg/CMakeFiles/mat_f_test.dir/rule
 .PHONY : src/linalg/CMakeFiles/mat_f_test.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ mat_f_test: src/linalg/CMakeFiles/mat_f_test.dir/rule
 
 # fast build rule for target.
 mat_f_test/fast:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/build
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/build
 .PHONY : mat_f_test/fast
 
 mat_f.o: mat_f.cpp.o
@@ -177,7 +177,7 @@ mat_f.o: mat_f.cpp.o
 
 # target to build an object file
 mat_f.cpp.o:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/mat_f.cpp.o
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/mat_f.cpp.o
 .PHONY : mat_f.cpp.o
 
 mat_f.i: mat_f.cpp.i
@@ -185,7 +185,7 @@ mat_f.i: mat_f.cpp.i
 
 # target to preprocess a source file
 mat_f.cpp.i:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/mat_f.cpp.i
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/mat_f.cpp.i
 .PHONY : mat_f.cpp.i
 
 mat_f.s: mat_f.cpp.s
@@ -193,7 +193,7 @@ mat_f.s: mat_f.cpp.s
 
 # target to generate assembly for a file
 mat_f.cpp.s:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/mat_f.cpp.s
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_library.dir/build.make src/linalg/CMakeFiles/mat_f_library.dir/mat_f.cpp.s
 .PHONY : mat_f.cpp.s
 
 mat_f_test.o: mat_f_test.cpp.o
@@ -201,7 +201,7 @@ mat_f_test.o: mat_f_test.cpp.o
 
 # target to build an object file
 mat_f_test.cpp.o:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/mat_f_test.cpp.o
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/mat_f_test.cpp.o
 .PHONY : mat_f_test.cpp.o
 
 mat_f_test.i: mat_f_test.cpp.i
@@ -209,7 +209,7 @@ mat_f_test.i: mat_f_test.cpp.i
 
 # target to preprocess a source file
 mat_f_test.cpp.i:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/mat_f_test.cpp.i
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/mat_f_test.cpp.i
 .PHONY : mat_f_test.cpp.i
 
 mat_f_test.s: mat_f_test.cpp.s
@@ -217,7 +217,7 @@ mat_f_test.s: mat_f_test.cpp.s
 
 # target to generate assembly for a file
 mat_f_test.cpp.s:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/mat_f_test.cpp.s
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/mat_f_test.dir/build.make src/linalg/CMakeFiles/mat_f_test.dir/mat_f_test.cpp.s
 .PHONY : mat_f_test.cpp.s
 
 vec_f.o: vec_f.cpp.o
@@ -225,7 +225,7 @@ vec_f.o: vec_f.cpp.o
 
 # target to build an object file
 vec_f.cpp.o:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.o
 .PHONY : vec_f.cpp.o
 
 vec_f.i: vec_f.cpp.i
@@ -233,7 +233,7 @@ vec_f.i: vec_f.cpp.i
 
 # target to preprocess a source file
 vec_f.cpp.i:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.i
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.i
 .PHONY : vec_f.cpp.i
 
 vec_f.s: vec_f.cpp.s
@@ -241,7 +241,7 @@ vec_f.s: vec_f.cpp.s
 
 # target to generate assembly for a file
 vec_f.cpp.s:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.s
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_library.dir/build.make src/linalg/CMakeFiles/vec_f_library.dir/vec_f.cpp.s
 .PHONY : vec_f.cpp.s
 
 vec_f_test.o: vec_f_test.cpp.o
@@ -249,7 +249,7 @@ vec_f_test.o: vec_f_test.cpp.o
 
 # target to build an object file
 vec_f_test.cpp.o:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/vec_f_test.cpp.o
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/vec_f_test.cpp.o
 .PHONY : vec_f_test.cpp.o
 
 vec_f_test.i: vec_f_test.cpp.i
@@ -257,7 +257,7 @@ vec_f_test.i: vec_f_test.cpp.i
 
 # target to preprocess a source file
 vec_f_test.cpp.i:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/vec_f_test.cpp.i
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/vec_f_test.cpp.i
 .PHONY : vec_f_test.cpp.i
 
 vec_f_test.s: vec_f_test.cpp.s
@@ -265,7 +265,7 @@ vec_f_test.s: vec_f_test.cpp.s
 
 # target to generate assembly for a file
 vec_f_test.cpp.s:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/vec_f_test.cpp.s
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(MAKE) $(MAKESILENT) -f src/linalg/CMakeFiles/vec_f_test.dir/build.make src/linalg/CMakeFiles/vec_f_test.dir/vec_f_test.cpp.s
 .PHONY : vec_f_test.cpp.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/antonio/Scrivania/RobotProgramming/exercises/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/vec_matrix_bsearch/exercise/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
