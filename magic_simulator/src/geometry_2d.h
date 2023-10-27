@@ -40,10 +40,6 @@ struct Vec2 {
 
   inline Vec2 operator+(const Vec2& other) const {
     //TODO 1
-    if (Dim != other.Dim) {
-      std::cout << "dimesion error" << std::endl;
-      return *this;
-    }
     Vec2 ret = *this;
     for (int i=0; i<Dim; ++i)
       ret[i] += other[i];
@@ -51,10 +47,6 @@ struct Vec2 {
   }
   
   inline Vec2& operator+=(const Vec2& other) {
-    if (Dim != other.Dim) {
-      std::cout << "dimesion error" << std::endl;
-      return *this;
-    }
     //TODO 2
     for (int i=0; i<Dim; ++i)
       values[i] += other[i];
@@ -66,16 +58,11 @@ struct Vec2 {
     Vec2 ret = *this;
     for (int i=0; i<Dim; ++i)
       ret[i] *= other;
-    return ret;
+    return *this;
   }
   
   inline Vec2& operator*=(const Vec2& other) {
     //TODO 4
-        if (Dim != other.Dim) {
-      std::cout << "dimesion error" << std::endl;
-      return *this;
-    }
-    //TODO 2
     for (int i=0; i<Dim; ++i)
       values[i] *= other[i];
     return *this;
@@ -93,10 +80,37 @@ struct Vec2i {
   int values[Dim];
   int& operator [](int p) { return values[p]; }
   const int& operator [](int p) const { return values[p]; }
+    inline Vec2i operator+(const Vec2& other) const {
+      Vec2i ret = *this;
+      for (int i=0; i<Dim; ++i)
+        ret[i] += other[i];
+      return ret;
+    }
+  
+    inline Vec2i& operator+=(const Vec2& other) {
+      for (int i=0; i<Dim; ++i)
+        values[i] += other[i];
+      return *this;
+    }
+
+    inline Vec2i operator*(const Scalar& other) const {
+      Vec2i ret = *this;
+      for (int i=0; i<Dim; ++i)
+        ret[i] *= other;
+      return *this;
+    }
+  
+    inline Vec2i& operator*=(const Vec2& other) {
+      for (int i=0; i<Dim; ++i)
+        values[i] *= other[i];
+      return *this;
+    }
+
 };
 
 // TODO 6: write the stream operator for Vec2i
 std::ostream& operator << (std::ostream& os, const Vec2i src);
+
 
 // same as before but with 3 dimensions
 struct Vec3 {
@@ -105,6 +119,32 @@ struct Vec3 {
 
   Scalar& operator [](int p) { return values[p]; }
   const Scalar& operator [](int p) const { return values[p]; }
+
+  inline Vec3 operator+(const Vec3& other) const {
+    Vec3 ret = *this;
+    for (int i=0; i<Dim; ++i)
+      ret[i] += other[i];
+    return ret;
+  }
+  
+  inline Vec3& operator+=(const Vec3& other) {
+    for (int i=0; i<Dim; ++i)
+      values[i] += other[i];
+    return *this;
+  }
+
+  inline Vec3 operator*(const Scalar& other) const {
+    Vec3 ret = *this;
+    for (int i=0; i<Dim; ++i)
+      ret[i] *= other;
+    return *this;
+  }
+  
+  inline Vec3& operator*=(const Vec3& other) {
+    for (int i=0; i<Dim; ++i)
+      values[i] *= other[i];
+    return *this;
+  }
 
 };
 
@@ -186,6 +226,15 @@ struct Isometry2 {
   // (R|t)*v = R*v+t;
   inline Vec2 operator*(const Vec2& other) {
     // TODO 7
+    Vec2 ret;
+    for (int r=0; r<Dim; ++r) {
+      Scalar acc = 0;
+      for (int c=0; c<Dim; ++c) {
+        acc += rotation[r][c] + other [c];
+      }
+      acc += translation[r];
+      ret [r] = acc;
+    }
     return other;
   }
 
@@ -218,14 +267,14 @@ struct GridMap {
   // returns the pixel at r,c, row major order
   inline const char& at(int r, int c) const {
     // TODO 9
-    return values[0]; // wrong! only to compile
+    return values[r * cols + c]; // wrong! only to compile
   }
 
   // same as above with write access
   inline char& at(int r, int c)  {
     // returns the pixel at r,c, row major order
     // TODO 10
-    return values[0]; // wrong! only to compile
+    return values[r * cols + c]; // wrong! only to compile
   }
 
   // converts world coordinates to grid coordinates
