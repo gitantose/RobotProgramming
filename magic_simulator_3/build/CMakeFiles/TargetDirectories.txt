@@ -1,0 +1,8 @@
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/CMakeFiles/edit_cache.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/CMakeFiles/rebuild_cache.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/src/CMakeFiles/simple_sim_library.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/src/CMakeFiles/test_geometry_2d.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/src/CMakeFiles/test_grid_map.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/src/CMakeFiles/test_stuff.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/src/CMakeFiles/edit_cache.dir
+/home/antonio/Scrivania/RobotProgramming/exercises/RobotProgramming/magic_simulator_3/build/src/CMakeFiles/rebuild_cache.dir
